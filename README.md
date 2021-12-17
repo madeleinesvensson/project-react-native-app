@@ -1,12 +1,11 @@
 # Project React Native App 📱
 
-Replace this readme with your own information about your project.
-
-Start by briefly describing the assignment in a sentence or two. Keep it short and to the point.
+A steptracker using the pedometer built in the phone to display the steps you have taken in a day.
 
 ## The problem
 
-Describe how you approached to problem, and what tools and techniques you used to solve it. How did you plan? What technologies did you use? If you had more time, what would be next?
+The first thing I did was to copy the code and modify it to my need to make the pedometer work. Then I added some code to make it cound from 00.00 to 24.00 and not 24 hours from now. Then I added a settings page with a drawer navigation where you can set up your name and your daily stepgoal. The idea is to have it saved loccally between the sessions so you don't have to write it in everytime. I also added and about page that fetches data from the github api (ablut me). The tracker page has a chart to calulate the % of your daily goal you have reached and a text in conditionally rendered depending on f you have reached your goal or not.
+
 
 ## View it live
 
